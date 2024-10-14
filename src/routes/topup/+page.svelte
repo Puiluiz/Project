@@ -54,29 +54,37 @@
         </div>
         
         <!-- ข้อความตรงกลาง -->
-        <div class="flex flex-col items-center h-screen text-center py-[100px]">
-            <h1 class="text-6xl font-semibold text-[#2C2C2C]">Top - up</h1>
-        </div>
-
-        <div class="flex items-center justify-center py-[100px]">    
-            <div>
-                <button class="flex flex-col items-center justify-center bg-[#FFE3DE] rounded-3xl shadow-md p-10 w-[300px] h-[300px] mr-20 mb-10">
-                    <a href="/product-detail-1">
-
-                        <h1 class="text-4xl font-semibold text-[#2C2C2C] mb-6">1 MONTH</h1> 
-                
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1.43em" height="1em" viewBox="0 0 256 180" class="w-[300px] h-[300px] mb-6">
-                            <path fill="#f00" 
-                            d="M250.346 28.075A32.18 32.18 0 0 0 227.69 5.418C207.824 0 127.87 0 127.87 0S47.912.164 28.046 5.582A32.18 32.18 0 0 0 5.39 28.24c-6.009 35.298-8.34 89.084.165 122.97a32.18 32.18 0 0 0 22.656 22.657c19.866 5.418 99.822 5.418 99.822 5.418s79.955 0 99.82-5.418a32.18 32.18 0 0 0 22.657-22.657c6.338-35.348 8.291-89.1-.164-123.134"/>
-                            <path fill="#fff" 
-                            d="m102.421 128.06l66.328-38.418l-66.328-38.418z"/>
-                        </svg>
-
-                        <h1 class="text-4xl font-semibold text-[#2C2C2C] ">IN STOCK 20</h1> 
-                    </a>
-                </button>
+        <div class="min-h-screen flex flex-col items-center text-white py-[40px]">
+            
+            <!-- Header section -->
+            <div class="bg-[#B5BAE4] p-5 w-full max-w-2xl rounded-t-lg flex items-center">
+                <img src="../src/lib/images/twg.png" class="h-16 w-16 rounded-lg" alt="TrueWallet Logo">
+                <div class="ml-4">
+                    <h1 class="text-2xl text-[#2C2C2C] font-bold">TrueWallet Voucher</h1>
+                    <p class="text-sm text-[#2C2C2C]">ทรูวอลเล็ท ซองอั่งเปา</p>
+                </div>
+            </div>
+        
+            <!-- Body section -->
+            <div class="bg-[#B5BAE4]/70 p-5 w-full max-w-2xl rounded-b-lg">
+                <div class="mb-5 flex flex-col items-center">
+                    <!-- Step 1 -->
+                    <div>
+                        <img src="../src/lib/images/tw-gift2.png" alt="Step 1" class="border rounded-lg mb-2">
+                    </div>
+        
+                </div>
+        
+                <!-- Input and Button -->
+                <div class="mb-5">
+                    <label for="voucher-link" class="block mb-2 text-left text-[#2C2C2C]">TrueWallet Voucher</label>
+                    <input id="voucher-link" type="text" class="w-full p-2 rounded-md bg-[#FFFFFF] text-white border border-gray-500" placeholder="https://gift.truemoney.com/campaign/?v=">
+                </div>
+        
+                <button class="w-full py-3 text-[#2C2C2C] bg-[#FFE3DE] rounded-lg font-bold">Top up</button>
             </div>
         </div>
+        
 
     </div>
 </div>
