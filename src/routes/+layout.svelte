@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>ChineseCheckerGame</title>
+	<title>YouTubePreAcc</title>
 </svelte:head>
 
 <div class="min-h-screen w-full bg-primary-300/90">
