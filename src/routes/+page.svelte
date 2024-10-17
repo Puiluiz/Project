@@ -4,12 +4,12 @@
     <div class="relative isolate bg-gradient-to-t from-[#B5BAE4] to-[#FFFFFF] h-full">
 
         <!-- หัวด้านบน -->
-        <div class="bg-[#B5BAE4] h-[100px] flex items-center justify-between px-5"> 
+        <div class="bg-[#B5BAE4] h-[100px] flex items-center px-5"> 
 
-            <div class="flex items-center space-x-2">
+            <div class="absolute left-5 md:left-10">
                 <button>
-                    <h1 class="text-[#2C2C2C] font-semibold text-2xl bg-[#FFE3DE] flex items-center justify-center rounded-3xl px-4 py-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1.43em" height="1em" viewBox="0 0 256 180" class="mr-2">
+                    <h1 class="font-mitr font-regular text-[#2C2C2C] text-lg md:text-2xl bg-[#FFE3DE] flex items-center justify-center rounded-3xl px-3 py-1 md:px-4 md:py-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.43em" height="1em" viewBox="0 0 256 180" class="mr-2 ">
                             <path fill="#f00" d="M250.346 28.075A32.18 32.18 0 0 0 227.69 5.418C207.824 0 127.87 0 127.87 0S47.912.164 28.046 5.582A32.18 32.18 0 0 0 5.39 28.24c-6.009 35.298-8.34 89.084.165 122.97a32.18 32.18 0 0 0 22.656 22.657c19.866 5.418 99.822 5.418 99.822 5.418s79.955 0 99.82-5.418a32.18 32.18 0 0 0 22.657-22.657c6.338-35.348 8.291-89.1-.164-123.134"/>
                             <path fill="#fff" d="m102.421 128.06l66.328-38.418l-66.328-38.418z"/>
                         </svg>
@@ -17,25 +17,27 @@
                     </h1>
                 </button>
             </div>
-
-            <div>
+        
+            <!-- ใช้ ml-auto เพื่อให้ Log in อยู่ขวาสุด -->
+            <div class="ml-auto">
                 <button>
-                    <h1 class="text-2xl text-[#2C2C2C] font-semibold bg-[#FFE3DE] flex items-center justify-center rounded-3xl px-4 py-2">
+                    <h1 class="flex items-center font-mitr font-regular text-2xl text-[#2C2C2C] bg-[#FFE3DE] rounded-3xl px-4 py-2">
                         <a href="/login">Log in</a>
                     </h1>
                 </button>
             </div>
         </div>
         
+        
         <!-- ข้อความตรงกลาง -->
         <div class="flex flex-col items-center h-screen text-center py-10 md:py-20">
 
             <div class="relative flex mb-10">
-                <h1 class="text-4xl md:text-6xl font-semibold text-[#2C2C2C]">YouTubePreAcc</h1>
+                <h1 class=" font-mitr font-regular text-4xl md:text-6xl  text-[#2C2C2C]">YouTubePreAcc</h1>
             </div>    
             
             <button>
-                <h1 class="text-[#2C2C2C] font-semibold text-xl md:text-2xl bg-[#FFE3DE] flex items-center justify-center rounded-3xl px-4 py-2 drop-shadow-md">
+                <h1 class="font-mitr font-regular text-[#2C2C2C] text-xl md:text-2xl bg-[#FFE3DE] flex items-center justify-center rounded-3xl px-4 py-2 drop-shadow-md">
                     <a href="/login">See more products</a>
                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512" class="ml-2">
                         <path fill="none" stroke="#2c2c2c" stroke-miterlimit="10" stroke-width="32" d="M221.09 64a157.09 157.09 0 1 0 157.09 157.09A157.1 157.1 0 0 0 221.09 64Z"/>
