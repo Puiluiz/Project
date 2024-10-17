@@ -25,14 +25,14 @@
                 <!-- Button History -->
                 <button>
                     <a href="/Manage-Products">
-                        <h1 class="underline text-xs sm:text-sm md:text-lg lg:text-xl font-semibold text-[#2C2C2C]">Manage-Products</h1>
+                        <h1 class="text-xs sm:text-sm md:text-lg lg:text-xl font-semibold text-[#2C2C2C]">Manage-Products</h1>
                     </a>
                 </button>
 
                 <!-- Button Top-up -->
                 <button>
                     <a href="/Manage-User">
-                        <h1 class="text-xs sm:text-sm md:text-lg lg:text-xl font-semibold text-[#2C2C2C]">Manage-User</h1>
+                        <h1 class="underline text-xs sm:text-sm md:text-lg lg:text-xl font-semibold text-[#2C2C2C]">Manage-User</h1>
                     </a>
                 </button>
 
@@ -59,45 +59,33 @@
                 <thead>
                     <tr>
                         <th class="border border-slate-600 text-[#2C2C2C] bg-[#FFE3DE] p-3">NUMBER</th>
-                        <th class="border border-slate-600 text-[#2C2C2C] bg-[#FFE3DE] p-3">ID PRODUCT</th>
-                        <th class="border border-slate-600 text-[#2C2C2C] bg-[#FFE3DE] p-3">LIST</th>
-                        <th class="border border-slate-600 text-[#2C2C2C] bg-[#FFE3DE] p-3">AMOUNT</th>
-                        <th class="border border-slate-600 text-[#2C2C2C] bg-[#FFE3DE] p-3">PRICE</th>
+                        <th class="border border-slate-600 text-[#2C2C2C] bg-[#FFE3DE] p-3">Username</th>
+                        <th class="border border-slate-600 text-[#2C2C2C] bg-[#FFE3DE] p-3">Email</th>
+                        <th class="border border-slate-600 text-[#2C2C2C] bg-[#FFE3DE] p-3">Role</th>
                         <th class="border border-slate-600 text-[#2C2C2C] bg-[#FFE3DE] p-3">Manage</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">001</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">P001</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">1 MONTH</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">1</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">45</td>
+                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">Book</td>
+                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">Book</td>
+                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">Admin</td>
                         <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">
                             <button class="bg-[#6CAAF0] text-white px-4 py-1 rounded mr-2">Manage</button>
                             <button class="bg-[#BD4C52] text-white px-4 py-1 rounded">Delete</button>
+                            <button class="bg-[#98BC79] text-[#FFFFFF] px-4 py-1 rounded mr-2">Change Password</button>
                         </td>
                     </tr>
                     <tr>
                         <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">002</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">P002</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">12 MONTH</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">1</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">540</td>
+                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">Pui</td>
+                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">Pui</td>
+                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">User</td>
                         <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">
                             <button class="bg-[#6CAAF0] text-white px-4 py-1 rounded mr-2">Manage</button>
                             <button class="bg-[#BD4C52] text-white px-4 py-1 rounded">Delete</button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">003</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">C000</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">TOP-UP</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">20</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">20</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">
-                            <button class="bg-[#6CAAF0] text-white px-4 py-1 rounded mr-2">Manage</button>
-                            <button class="bg-[#BD4C52] text-white px-4 py-1 rounded">Delete</button>
+                            <button class="bg-[#98BC79] text-[#FFFFFF] px-4 py-1 rounded mr-2">Change Password</button>
                         </td>
                     </tr>
                 </tbody>
