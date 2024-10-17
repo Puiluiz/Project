@@ -53,45 +53,44 @@
 
         <!-- ข้อความตรงกลาง -->
         <div class="flex flex-col items-center h-screen text-center py-[100px]">
-            <table class="table-auto border-collapse border border-slate-500 w-full max-w-full overflow-x-auto">
+            <div>
+            <button><a href="/history" class="font-mitr bg-[#FFE3DE] text-[#2C2C2C] px-3 py-1 md:px-4 md:py-2 border border-gray-300 rounded-xl drop-shadow-md ">ประวัติการซื้อ</a></button>
+            <button><a href="/history-topup" class="ml-10 font-mitr bg-white text-[#2C2C2C] px-3 py-1 md:px-4 md:py-2 border border-gray-300 rounded-xl hover:bg-gray-100 drop-shadow-md ">ประวัติการเติม</a></button>
+            </div>
+
+            <table class="mt-10 table-auto border-collapse border border-slate-500 w-full max-w-full overflow-x-auto">
                 <thead>
                     <tr>
-                        <th class="border border-slate-600 text-[#2C2C2C] bg-[#FFE3DE] p-3">NUMBER</th>
-                        <th class="border border-slate-600 text-[#2C2C2C] bg-[#FFE3DE] p-3">ID PRODUCT</th>
-                        <th class="border border-slate-600 text-[#2C2C2C] bg-[#FFE3DE] p-3">LIST</th>
-                        <th class="border border-slate-600 text-[#2C2C2C] bg-[#FFE3DE] p-3">AMOUNT</th>
-                        <th class="border border-slate-600 text-[#2C2C2C] bg-[#FFE3DE] p-3">PRICE</th>
-                        <th class="border border-slate-600 text-[#2C2C2C] bg-[#FFE3DE] p-3">DETAIL</th>
-                        <th class="border border-slate-600 text-[#2C2C2C] bg-[#FFE3DE] p-3">STATUS</th>
+                        <th class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFE3DE] p-3">ID</th>
+                        <th class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFE3DE] p-3">ID สินค้า</th>
+                        <th class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFE3DE] p-3">ชื่อสินค้า</th>
+                        <th class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFE3DE] p-3">จำนวน</th>
+                        <th class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFE3DE] p-3">ราคา</th>
+                        <th class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFE3DE] p-3">Email</th>
+                        <th class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFE3DE] p-3">Password</th>
+                        <th class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFE3DE] p-3">สถานะ</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">001</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">P001</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">1 MONTH</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">1</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">45</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">Test@gmail.com/12345</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">EXPIRE</td>
+                        <td class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">001</td>
+                        <td class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">P001</td>
+                        <td class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">1 MONTH</td>
+                        <td class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">1</td>
+                        <td class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">45</td>
+                        <td class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">Test@gmail.com</td>
+                        <td class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">12345</td>
+                        <td class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">EXPIRE</td>
                     </tr>
                     <tr>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">002</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">P002</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">12 MONTH</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">1</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">540</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">Test2@gmail.com/12345</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">20 DAY TO EXPIRE</td>
-                    </tr>
-                    <tr>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">003</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">C000</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">TOP-UP</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">20</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">20</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">-</td>
-                        <td class="border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">DONE</td>
+                        <td class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">002</td>
+                        <td class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">P002</td>
+                        <td class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">12 MONTH</td>
+                        <td class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">1</td>
+                        <td class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">540</td>
+                        <td class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">Test@gmail.com</td>
+                        <td class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">12345</td>
+                        <td class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">20 DAY TO EXPIRE</td>
                     </tr>
                 </tbody>
             </table>

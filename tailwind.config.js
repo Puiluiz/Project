@@ -4,11 +4,17 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
 		extend: {
-			colors: {
-				primary: colors.orange,
-				secondary: colors.amber,
-				tertiary: colors.yellow
-			}
+			fontFamily: {
+				mitr: ['Mitr', 'sans-serif'],
+			  },
+			  fontWeight: {
+				extralight: 200,
+				light: 300,
+				regular: 400,
+				medium: 500,
+				semibold: 600,
+				bold: 700,
+			  },
 		}
 	},
 	plugins: []

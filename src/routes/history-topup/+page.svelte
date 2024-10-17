@@ -1,8 +1,6 @@
 <div class="mx-auto w-full text-white text-center h-full">
-
     <!-- bg -->
     <div class="relative isolate bg-gradient-to-t from-[#B5BAE4] to-[#FFFFFF] h-full">
-
         <!-- หัวด้านบน -->
         <div class="bg-[#B5BAE4] h-[70px] md:h-[100px] w-full flex items-center justify-between px-4">
             <div class="absolute left-5 md:left-10">
@@ -26,7 +24,7 @@
 
                 <button>
                     <a href="/history">
-                        <h1 class="text-sm md:text-lg lg:text-xl font-semibold text-[#2C2C2C]">History</h1>
+                        <h1 class="underline text-sm md:text-lg lg:text-xl font-semibold text-[#2C2C2C]">History</h1>
                     </a>
                 </button>
 
@@ -52,17 +50,35 @@
                 </button>
             </div>
         </div>
-        
+
         <!-- ข้อความตรงกลาง -->
-        <div class="flex flex-col items-center h-screen text-center py-20 md:py-40">
-            <div class="flex flex-col items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-[100px] h-[100px] md:w-[150px] md:h-[150px]">
-                    <path fill="#98bc79" fill-rule="evenodd" d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10m-1.177-7.86l-2.765-2.767L7 12.431l3.119 3.121a1 1 0 0 0 1.414 0l5.952-5.95l-1.062-1.062z"/>
-                </svg>
-        
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-semibold text-[#2C2C2C] mt-5">SUCCEED</h1>
-            </div>    
+        <div class="flex flex-col items-center h-screen text-center py-[100px]">
+            <div>
+            <button><a href="/history" class="font-mitr bg-white text-[#2C2C2C] px-3 py-1 md:px-4 md:py-2 border border-gray-300 rounded-xl hover:bg-gray-100 drop-shadow-md ">ประวัติการซื้อ</a></button>
+            <button><a href="/history-topup" class="ml-10 font-mitr bg-[#FFE3DE] text-[#2C2C2C] px-3 py-1 md:px-4 md:py-2 border border-gray-300 rounded-xl drop-shadow-md ">ประวัติการเติม</a></button>
+            </div>
+
+            <table class="mt-10 table-auto border-collapse border border-slate-500 w-full max-w-full overflow-x-auto">
+                <thead>
+                    <tr>
+                        <th class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFE3DE] p-3">ID</th>
+                        <th class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFE3DE] p-3">รายละเอียดสินค้า</th>
+                        <th class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFE3DE] p-3">ราคา</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">001</td>
+                        <td class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">เติม coin</td>
+                        <td class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">20</td>
+                    </tr>
+                    <tr>
+                        <td class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">002</td>
+                        <td class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">เติม coin</td>
+                        <td class="font-mitr font-regular border border-slate-600 text-[#2C2C2C] bg-[#FFFFFF] p-3">100</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-        
     </div>
 </div>
