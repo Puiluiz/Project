@@ -42,16 +42,8 @@
                 <!-- โปรไฟล์ผู้ใช้ -->
                 <button>
                     <a href="/profile" class="flex items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                            viewBox="0 0 24 24"
-                            class="h-[30px] w-[30px] md:h-[40px] md:w-[40px] lg:h-[50px] lg:w-[50px]">
-                            <g fill="none" stroke="#ffe3de" stroke-width="1.5">
-                                <path stroke-linecap="round"
-                                    d="M7 18v-1a5 5 0 0 1 5-5v0a5 5 0 0 1 5 5v1"/>
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M12 12a3 3 0 1 0 0-6a3 3 0 0 0 0 6"/>
-                                <circle cx="12" cy="12" r="10"/>
-                            </g>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" class="h-[30px] w-[30px] md:h-[40px] md:w-[40px] lg:h-[50px] lg:w-[50px]">
+                            <path fill="#ffe3de" fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 1 1 9 0a4.5 4.5 0 0 1-9 0M3.751 20.105a8.25 8.25 0 0 1 16.498 0a.75.75 0 0 1-.437.695A18.7 18.7 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695" clip-rule="evenodd"/>
                         </svg>
                         <span class="font-mitr font-regular text-sm md:text-lg lg:text-xl text-[#2C2C2C] ml-2">username</span>
                     </a>
