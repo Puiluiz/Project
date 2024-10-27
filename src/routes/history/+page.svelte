@@ -60,6 +60,12 @@
 
         <!-- ข้อความตรงกลาง -->
         <div class="flex flex-col items-center h-screen text-center py-[100px]">
+            <!-- ช่องค้นหา -->
+        <div class="mb-10">
+            <input type="text" placeholder="Search.." class="font-mitr font-regular text-[#2C2C2C] p-2 border border-gray-300 rounded-l-3xl" />
+            <button class="font-mitr font-regular bg-[#98BC79] text-white px-4 py-2 rounded-r-3xl">Search</button>
+        </div>
+        
             <div>
             <button><a href="/history" class="font-mitr bg-[#FFE3DE] text-[#2C2C2C] px-3 py-1 md:px-4 md:py-2 border border-gray-300 rounded-xl drop-shadow-md ">ประวัติการซื้อ</a></button>
             <button><a href="/history-topup" class="ml-10 font-mitr bg-white text-[#2C2C2C] px-3 py-1 md:px-4 md:py-2 border border-gray-300 rounded-xl hover:bg-gray-100 drop-shadow-md ">ประวัติการเติม</a></button>
